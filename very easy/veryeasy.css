@@ -1,0 +1,16 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: (100px, auto);
+  
+}
+
+.wrapper > div:nth-child(even){
+    background-color: black;
+}
+
+    .wrapper > div:nth-child(odd){
+    background-color: white;
+    color: white;
+}
+
